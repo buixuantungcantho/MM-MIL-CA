@@ -1,0 +1,11 @@
+model_name: mm_mil_ca
+paper_id: PAPER_1_MM_MIL_CA
+hidden_dim: 256
+attention_heads: 4
+dropout: 0.2
+text_encoder:
+  type: hashed_gru
+  vocab_size: 16384
+  embedding_dim: 192
+  max_tokens: 256
+  bidirectional: true
